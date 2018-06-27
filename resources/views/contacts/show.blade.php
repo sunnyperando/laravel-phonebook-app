@@ -29,10 +29,10 @@
 
     </li-->
     <li class="nav-item" style="font-family: 'Montserrat', sans-serif;">
-      <h2><a class="nav-link" href="../">  {{ config('app.name') }} </a></h2>
+      <h2><a class="nav-link" href="{{ route('contacts.index') }}">  {{ config('app.name') }} </a></h2>
     </li>
     <li class="nav-item">&nbsp;&nbsp;
-    <a href='../' data-toggle="tooltip" title="Back">
+    <a href='{{ URL::previous() }}' data-toggle="tooltip" title="Back">
       <img  height="55" width="33" src="{{ asset('css/back.svg') }}">
     </a>
     </li> 

@@ -20,7 +20,7 @@
       <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Add</button>
     </li-->
     <li class="nav-item" style="font-family: 'Montserrat', sans-serif;">
-      <h2><a class="nav-link" href="./">  {{ config('app.name') }} </a></h2>
+      <h2><a class="nav-link" href="{{ route('contacts.index') }}">  {{ config('app.name') }} </a></h2>
     </li>
     <li class="nav-item">&nbsp;&nbsp;
     <a class="btn btn-primary" href='create'>Add</a>
