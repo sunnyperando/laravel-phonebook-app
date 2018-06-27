@@ -20,8 +20,7 @@ Create a database locally named phonebook-app
 
 Rename .env.example file to .env 
 or
-Edit .env
-
+Edit the following on .env
 ```python
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
