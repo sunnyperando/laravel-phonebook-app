@@ -30,7 +30,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-Open console(command prompt) and go to directory of phonebook-app
+Open console(command prompt) and go to directory of phonebook-app (xampp\htdocs\phonebook-app)
 
 Run ```composer install``` or ```php composer.phar install```
 
