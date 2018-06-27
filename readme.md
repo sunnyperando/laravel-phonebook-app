@@ -18,9 +18,8 @@ Download and Install Composer: https://getcomposer.org/download/
 
 Create a database locally named phonebook-app
 
-Rename .env.example file to .env 
-or
-Edit the following on .env
+Rename .env.example file to .env and define the following in it:
+
 ```python
 APP_NAME=Phonebook
 ```
@@ -35,6 +34,7 @@ DB_DATABASE=phonebook-app
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+
 
 Open console(command prompt) and go to directory of phonebook-app (xampp\htdocs\phonebook-app)
 
